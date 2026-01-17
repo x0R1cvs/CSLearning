@@ -1,4 +1,4 @@
-## Tópico / Tema
+## Estrutura Condicional em Pascal
 
 2026-01-14 17:52
 
@@ -14,71 +14,101 @@
 
 #### Estrutura Simples
 
-```PASCAL
+```Pascal
 PROGRAM <name>;
 USES <library>;
-VAR <name>: <type>;
-
+VAR <var> : <type>;
 BEGIN
-	IF <condition>
+	IF condition
 	THEN <command>;
 END.
 ```
+Na estrutura mais básica acima, ele apenas faz a verificação da condição e com isso apenas executa o que vem logo abaixo em `THEN`.
 
-```PASCAL
+Claro que, nesta estrutura basicamente apenas realizamos a execução de apenas um comando, sendo assim, para executarmos uma série de outros comandos precisamos fazer o seguinte:
+
+```Pascal
 PROGRAM <name>;
 USES <library>;
-VAR <name>: <type>;
-
+VAR <var> : <type>;
 BEGIN
 	IF <condition>
-	THEN BEGIN
-		 <comand1>;
-		 <comand2>;
-		 <comand3>;
-		 END;
+	BEGIN
+	END;
 END.
 ```
+
+Assim, todos os comandos que estiverem abaixo do `BEGIN` vão ser executados.
 
 #### Estrutura Composta
 
+```Pascal
+PROGRAM <name>;
+USES <library>;
+VAR <var> : <type>;
+BEGIN
+	IF <condition>;
+	THEN <command1>;
+	ELSE <command2>;
+END.
+```
+
+Utilizamos essa estrutura basicamente para fornecer uma sentença a ser executada caso a primeira condição não seja correspondida. 
+
+```Pascal
+PROGRAM <name>;
+USES <library>;
+VAR <var> : <type>;
+BEGIN
+	IF <condition>;
+	THEN
+		BEGIN
+			<command1>;
+			<command2>;
+		END
+	ELSE 
+		BEGIN
+			<command3>;
+		END;
+END.
+```
+
+Não existe antes do `ELSE` um ponto e vírgula.
+
 #### Estrutura Case
 
-```PASCAL
+```Pascal
 PROGRAM <name>;
 USES <library>;
-VAR <name>: <type>;
-
+VAR <var> : <type>;
 BEGIN
-
-    CASE <variable> of
-        <command1>
-        <command2>
-        <range>: BEGIN
-         END;
-    END;
+	CASE <seletor> OF
+		<range>: <command1>;
+		<target>: <command2>;
+	END;
 END.
 ```
 
-- Na estrutura acima
+Nessa estrutura, precisamos necessariamente de um seletor (Variável) para que possamos escolher uma sentença se correspondente com o valor desse seletor. Podemos executar bloco de comandos e também colocar um comando para que se caso não seja correspondente.
 
-```PASCAL
+Ex:
+
+```Pascal
 PROGRAM <name>;
 USES <library>;
-VAR <name>: <type>;
-
+VAR <var> : <type>;
 BEGIN
 
-    CASE <variable> of
-        <list1> : <command1>;
-        <list2> : <command2>;
-        <range>: BEGIN
-	        <comand3>;
-	        <comand4>;
-	        <comand5>;
-         END;
-    ELSE <coomand6>;
+	CASE <seletor> OF
+		n..p:writeln("Range de n a p");
+		a,b,c:writeln("Os valores a,b,c");
+		z: BEGIN
+			<command1>;
+			<command2>;
+			<command3>;
+			END;
+		else writeln("Nenhum valor correspondido.")
+	END;
 END.
 ```
-
-- Na estrutura acima se nenhum dos requisitos forem atingidos, ele vai pular para o **ELSE**
+#### Operadores lógicos

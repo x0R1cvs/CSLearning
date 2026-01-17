@@ -2,7 +2,7 @@
 
 2025-12-29 19:32
 
-**Subjects**: [[variaveis]] | [[sintaxe]] 
+**Subjects**: [[sintaxe]] 
 
 **Source**: <a href="https://www.amazon.com.br/Fundamentos-programa%C3%A7%C3%A3o-computadores-algoritmos-pascal/dp/8564574160">Fundamentos da Programação de Computadores: Algoritmos, Pascal, C, C++ e Java</a>
 
