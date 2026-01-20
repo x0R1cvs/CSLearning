@@ -4,7 +4,7 @@
 
 
 ## Notas de Aula
-Este repositório mantém as notas de aula das disciplinas do Bacharelado em Ciências da Computação no Centro Universitário Senac.
+Este repositório mantém as notas de aula das disciplinas do Bacharelado em Ciências da Computação.
 
 ## Objetivos
 -   Centralizar todo o conteúdo das matérias em um só lugar;
