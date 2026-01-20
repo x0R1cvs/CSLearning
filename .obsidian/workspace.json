@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algoritmos, Estrutura de Dados e Linguagens/Languages/Pascal/Estrutura Condicional.md",
+                "file": "Banco de Dados/SQL/Instruções CASE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Estrutura Condicional"
+              "title": "Instruções CASE"
             }
           }
         ]
@@ -185,22 +185,30 @@
   },
   "active": "70734b42267f7518",
   "lastOpenFiles": [
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000027.exe",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000027.o",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000027.pas",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000026.exe",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000026.o",
-    "Algoritmos, Estrutura de Dados e Linguagens/Languages/Pascal/Estrutura Sequencial.md",
+    "Banco de Dados/DB/weather_stations.db",
+    "Banco de Dados/DB/surgetech_conference.db",
+    "Banco de Dados/DB/rexon_metals.db",
+    "Banco de Dados/DB/extra_practice_database.db",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/weather_stations.db",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/surgetech_conference.db",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/rexon_metals.db",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/extra_practice_examples/total_sales_by_customer.txt",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/extra_practice_examples/total_sales_by_country.txt",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/extra_practice_examples/grunge_playlist.txt",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/extra_practice_examples/artist_and_album_with_tracks.txt",
+    "Banco de Dados/DB/oreilly_getting_started_with_sql/README.md",
+    "Banco de Dados/SQL/GROUP BY e ORDER BY.md",
+    "Banco de Dados/SQL/Instruções CASE.md",
+    "Banco de Dados/SQL/SELECT.md",
+    "SM/Tags/sqlite.md",
+    "Banco de Dados/SQL/WHERE.md",
+    "SM/Tags/sql.md",
+    "SM/Templates/TEMPLATEGEN.md",
+    "SM/Tags/sintaxe.md",
     "Algoritmos, Estrutura de Dados e Linguagens/Languages/Pascal/Estrutura Condicional.md",
+    "Algoritmos, Estrutura de Dados e Linguagens/Languages/Pascal/Estrutura Sequencial.md",
     "Algoritmos, Estrutura de Dados e Linguagens/Languages/Java/Estrutura Sequencial.md",
     "Algoritmos, Estrutura de Dados e Linguagens/Languages/Java/Estrutura Condicional.md",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000026.pas",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000030.exe",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000030.c",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000029.exe",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000029.c",
-    "Algoritmos, Estrutura de Dados e Linguagens/Exercises/0000000028.exe",
-    "Algoritmos, Estrutura de Dados e Linguagens/Languages/C/Estrutura Condicional.md",
-    "SM/Templates/sintaxe.md"
+    "Algoritmos, Estrutura de Dados e Linguagens/Languages/C/Estrutura Condicional.md"
   ]
 }
