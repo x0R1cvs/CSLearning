@@ -1,10 +1,5 @@
-<div align="center">
-<img src="https://upload.wikimedia.org/wikipedia/commons/8/86/Senac_logo.svg" width="180" height="100">
-</div>
-
-
-## Notas de Aula
-Este repositório mantém as notas de aula das disciplinas do Bacharelado em Ciências da Computação.
+## Notas de Aprendizagem
+Este repositório mantém as notas de aula das disciplinas do Bacharelado em Ciências da Computação e Bacharelado em Engenharia da Computação buscando explorar a compreensão e entendimento da computação com um todo e com toque da física e matemática.
 
 ## Objetivos
 -   Centralizar todo o conteúdo das matérias em um só lugar;
