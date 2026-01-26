@@ -116,3 +116,14 @@ System.out.print("Hello, world!");
 ```java
 System.out.println(x);
 ```
+
+| Tipo de Dado | Faixa de Valores                                         | Tamanho (Aproximado) |
+| ------------ | -------------------------------------------------------- | -------------------- |
+| byte         | −128 a 127                                               | 8 bits               |
+| char         | 0 a 65.535                                               | 16 bits              |
+| short        | −32.768 a 32.767                                         | 16 bits              |
+| int          | −2.147.483.648 a 2.147.483.647                           | 32 bits              |
+| float        | −3.4 × 10^-38 a 3.4 × 10^38                              | 32 bits              |
+| long         | −9.223.372.036.854.775.808 a<br>9.223.372.036.854.775.80 | 64 bits              |
+| double       | −1.7 × 10^−308 a 1.7 × 10^308                            | 64 bits              |
+| boolean      | true ou false                                            | indefinido           |
