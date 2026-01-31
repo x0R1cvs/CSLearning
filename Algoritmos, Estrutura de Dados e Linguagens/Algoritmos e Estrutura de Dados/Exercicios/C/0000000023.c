@@ -1,2 +1,2 @@
 // Fonte: Fundamentos da Programação de Computadores: Algoritmos, Pascal, C, C++ e Java
-// Exercício: 
+// Exercício: Faça um programa que receba a medida de dois ângulos de um triângulo, calcule e mostre a medida do terceiro ângulo. sabe-se que a soma dos ângulos de um triângulo é 180 graus.

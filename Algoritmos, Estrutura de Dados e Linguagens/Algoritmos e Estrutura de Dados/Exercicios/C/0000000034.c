@@ -16,5 +16,5 @@ int main(){
         credito = saldomedio * 0.30;
     printf("Saldo medio: %.2f\n",saldomedio);
     printf("Credito: %.2f\n",credito);
-    return 0;    
+    return 0; 
 }

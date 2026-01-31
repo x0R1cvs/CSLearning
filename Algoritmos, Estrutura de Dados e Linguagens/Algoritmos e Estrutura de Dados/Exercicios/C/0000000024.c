@@ -9,5 +9,5 @@ int main(){
     float dolar = 1.80 * real, marcoalemao = 2.0 * real, libraesterlina = 3.57 * real;
     printf("Dolar: %.2f\n",dolar);
     printf("Marco Alemao: %.2f\n",marcoalemao);
-    printf("Libra Esterlina: %.2f\n",libraesterlina);
+    printf("Libra Esterlina: %f\n",libraesterlina);
 }
